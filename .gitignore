@@ -1,0 +1,9 @@
+﻿.DS_Store
+obj/
+bin/
+obj
+bin
+.vs
+.vs/
+.vscode
+.vscode/
