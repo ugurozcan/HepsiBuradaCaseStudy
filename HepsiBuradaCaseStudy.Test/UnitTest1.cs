@@ -16,7 +16,6 @@ namespace HepsiBuradaCaseStudy.Test
         [InlineData(new string[] { "5 5", "1 2 N", "" }, "1 2 N", "Rover stayed in the same position.")]
         public void Test1(string[] input, string expected, string description)
         {
-
             var SUT = new NavigationService();
             var actual = SUT.Navigate(input);
             Assert.Equal(expected, actual);
